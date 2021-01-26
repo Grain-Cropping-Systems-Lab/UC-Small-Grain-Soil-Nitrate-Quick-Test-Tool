@@ -94,6 +94,6 @@ names(one_file@data) <- tolower(gsub("_", "", names(one_file@data)))
 one_file@data <- one_file@data[,c(1:9, 11:15)]
 
 
-# write shapefile out as one shapefile into the current working directory (can easily change this by changeing "." to the directory path
+# write shapefile out as one shapefile into the current working directory (can easily change this by changing "." to the directory path
 rgdal::writeOGR(one_file, ".", layer = "ssurgo_ca_soils", driver="ESRI Shapefile",
 								overwrite_layer = TRUE)
