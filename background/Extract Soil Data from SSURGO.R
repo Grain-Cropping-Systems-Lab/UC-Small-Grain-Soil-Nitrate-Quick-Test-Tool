@@ -97,3 +97,5 @@ one_file@data <- one_file@data[,c(1:9, 11:15)]
 # write shapefile out as one shapefile into the current working directory (can easily change this by changing "." to the directory path
 rgdal::writeOGR(one_file, ".", layer = "ssurgo_ca_soils", driver="ESRI Shapefile",
 								overwrite_layer = TRUE)
+
+# For the Soil Nitrate Quick Test web app we store the spatially explicit soil data in a PostGres database for speed and ease of access. 
