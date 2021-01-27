@@ -14,7 +14,8 @@ source("../functions/qtconverter_fn.R")
 source("../functions/region_behavior_snqt_fn.R")
 
 # load modules
-source("../modules/dashboard_header.R")
+# define the header for the web-tool
+source("../modules/dashboard_header_snqt.R")
 
 # the map module uses a Google API key in order to be fully functional
 source("../modules/map_module.R")
