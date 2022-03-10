@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: 'The Soil Nitrate Quick Test Web-Tool'
+date-released: 2020-04-23
+url: "https://github.com/Grain-Cropping-Systems-Lab/UC-Small-Grain-Soil-Nitrate-Quick-Test-Tool"
+message: Please cite this repository as detailed.
+type: GitHub repository
+authors:
+  - given-names: Taylor
+    family-names: Nelsen
+    email: tsnelsen@ucdavis.edu
+  - given-names: Gabriel
+    family-names: Rosa
+    email: grosa@ucdavis.edu  
+  - given-names: Mark
+    family-names: Lundy
+    email: melundy@ucdavis.edu
